@@ -18,6 +18,6 @@ func main() {
 	}
 
 	if err := scanner.Err(); err != nil {
-		log.Fatalf("Error reading vom stdin: %v", err)
+		log.Fatalf("Error reading from stdin: %v", err)
 	}
 }
